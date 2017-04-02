@@ -75,6 +75,9 @@
 		<Item Name="GetCursorData.vi" Type="VI" URL="../SubVIs/Subs/GetCursorData.vi"/>
 		<Item Name="GetScaleCenter.vi" Type="VI" URL="../SubVIs/Subs/GetScaleCenter.vi"/>
 		<Item Name="GetYAxisList.vi" Type="VI" URL="../SubVIs/Subs/GetYAxisList.vi"/>
+		<Item Name="Graph GetYScale.vi" Type="VI" URL="../SubVIs/View/Graph GetYScale.vi"/>
+		<Item Name="Graph InitScale(Wave).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Wave).vi"/>
+		<Item Name="Graph InitScale(XY).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(XY).vi"/>
 		<Item Name="Load Axis.vi" Type="VI" URL="../SubVIs/Subs/Load Axis.vi"/>
 		<Item Name="Load Scale(XY).vi" Type="VI" URL="../SubVIs/Subs/Load Scale(XY).vi"/>
 		<Item Name="Load Scale.vi" Type="VI" URL="../SubVIs/Subs/Load Scale.vi"/>
@@ -188,6 +191,7 @@
 				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
 				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Waveform Min Max.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Min Max.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>

@@ -70,6 +70,7 @@
 		</Item>
 		<Item Name="TypeDef" Type="Folder"/>
 		<Item Name="ChkDateTime.vi" Type="VI" URL="../SubVIs/Subs/ChkDateTime.vi"/>
+		<Item Name="CustomizeSetting.vi" Type="VI" URL="../SubVIs/Subs/CustomizeSetting.vi"/>
 		<Item Name="FormClose.vi" Type="VI" URL="../SubVIs/Subs/FormClose.vi"/>
 		<Item Name="FormPopup.vi" Type="VI" URL="../SubVIs/Subs/FormPopup.vi"/>
 		<Item Name="GetCursorData.vi" Type="VI" URL="../SubVIs/Subs/GetCursorData.vi"/>

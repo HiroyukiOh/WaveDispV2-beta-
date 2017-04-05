@@ -63,6 +63,7 @@
 			<Item Name="View" Type="Folder">
 				<Item Name="GraphView(Cursor).vi" Type="VI" URL="../SubVIs/View/GraphView(Cursor).vi"/>
 				<Item Name="GraphView.vi" Type="VI" URL="../SubVIs/View/GraphView.vi"/>
+				<Item Name="MixedGraphView(old).vi" Type="VI" URL="../SubVIs/View/MixedGraphView(old).vi"/>
 				<Item Name="MixedGraphView.vi" Type="VI" URL="../SubVIs/View/MixedGraphView.vi"/>
 				<Item Name="WaveGraphView.vi" Type="VI" URL="../SubVIs/View/WaveGraphView.vi"/>
 				<Item Name="XYGraphView.vi" Type="VI" URL="../SubVIs/View/XYGraphView.vi"/>
@@ -77,18 +78,22 @@
 		<Item Name="GetScaleCenter.vi" Type="VI" URL="../SubVIs/Subs/GetScaleCenter.vi"/>
 		<Item Name="GetYAxisList.vi" Type="VI" URL="../SubVIs/Subs/GetYAxisList.vi"/>
 		<Item Name="Graph GetYScale.vi" Type="VI" URL="../SubVIs/View/Graph GetYScale.vi"/>
+		<Item Name="Graph InitScale(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Mixed).vi"/>
 		<Item Name="Graph InitScale(Wave).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Wave).vi"/>
 		<Item Name="Graph InitScale(XY).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(XY).vi"/>
 		<Item Name="Load Axis.vi" Type="VI" URL="../SubVIs/Subs/Load Axis.vi"/>
+		<Item Name="Load Scale(Mixed).vi" Type="VI" URL="../SubVIs/Subs/Load Scale(Mixed).vi"/>
 		<Item Name="Load Scale(XY).vi" Type="VI" URL="../SubVIs/Subs/Load Scale(XY).vi"/>
 		<Item Name="Load Scale.vi" Type="VI" URL="../SubVIs/Subs/Load Scale.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MakeXyData.vi" Type="VI" URL="../SubVIs/Subs/MakeXyData.vi"/>
 		<Item Name="PlotParam.ctl" Type="VI" URL="../SubVIs/Subs/PlotParam.ctl"/>
 		<Item Name="Save Axis.vi" Type="VI" URL="../SubVIs/Subs/Save Axis.vi"/>
+		<Item Name="Save Scale(Mixed).vi" Type="VI" URL="../SubVIs/Subs/Save Scale(Mixed).vi"/>
 		<Item Name="Save Scale(XY).vi" Type="VI" URL="../SubVIs/Subs/Save Scale(XY).vi"/>
 		<Item Name="Save Scale.vi" Type="VI" URL="../SubVIs/Subs/Save Scale.vi"/>
 		<Item Name="ScaleParam.ctl" Type="VI" URL="../SubVIs/Subs/ScaleParam.ctl"/>
+		<Item Name="WaveGraph Cursor(Mixed).vi" Type="VI" URL="../SubVIs/View/WaveGraph Cursor(Mixed).vi"/>
 		<Item Name="WaveGraph Cursor(XY).vi" Type="VI" URL="../SubVIs/View/WaveGraph Cursor(XY).vi"/>
 		<Item Name="WaveGraph Cursor.vi" Type="VI" URL="../SubVIs/View/WaveGraph Cursor.vi"/>
 		<Item Name="依存項目" Type="Dependencies">

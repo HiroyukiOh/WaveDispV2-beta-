@@ -57,45 +57,39 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Subs" Type="Folder">
 				<Item Name="AddColData.vi" Type="VI" URL="../SubVIs/Subs/AddColData.vi"/>
+				<Item Name="ChkDateTime.vi" Type="VI" URL="../SubVIs/Subs/ChkDateTime.vi"/>
+				<Item Name="CustomizeSetting.vi" Type="VI" URL="../SubVIs/Subs/CustomizeSetting.vi"/>
+				<Item Name="FormClose.vi" Type="VI" URL="../SubVIs/Subs/FormClose.vi"/>
+				<Item Name="FormPopup.vi" Type="VI" URL="../SubVIs/Subs/FormPopup.vi"/>
+				<Item Name="GetCursorData.vi" Type="VI" URL="../SubVIs/Subs/GetCursorData.vi"/>
 				<Item Name="MakeChData.vi" Type="VI" URL="../SubVIs/Subs/MakeChData.vi"/>
 				<Item Name="MakeColHeaderString.vi" Type="VI" URL="../SubVIs/Subs/MakeColHeaderString.vi"/>
+				<Item Name="MakeXyData.vi" Type="VI" URL="../SubVIs/Subs/MakeXyData.vi"/>
 			</Item>
 			<Item Name="View" Type="Folder">
-				<Item Name="GraphView(Cursor).vi" Type="VI" URL="../SubVIs/View/GraphView(Cursor).vi"/>
-				<Item Name="GraphView.vi" Type="VI" URL="../SubVIs/View/GraphView.vi"/>
-				<Item Name="MixedGraphView(old).vi" Type="VI" URL="../SubVIs/View/MixedGraphView(old).vi"/>
+				<Item Name="Graph AddCursor(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph AddCursor(Mixed).vi"/>
+				<Item Name="Graph AddCursor(Wave).vi" Type="VI" URL="../SubVIs/View/Graph AddCursor(Wave).vi"/>
+				<Item Name="Graph AddCursor(XY).vi" Type="VI" URL="../SubVIs/View/Graph AddCursor(XY).vi"/>
+				<Item Name="Graph GetYScale.vi" Type="VI" URL="../SubVIs/View/Graph GetYScale.vi"/>
+				<Item Name="Graph InitScale(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Mixed).vi"/>
+				<Item Name="Graph InitScale(Wave).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Wave).vi"/>
+				<Item Name="Graph InitScale(XY).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(XY).vi"/>
+				<Item Name="Graph Load Scale(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph Load Scale(Mixed).vi"/>
+				<Item Name="Graph Load Scale(Wave).vi" Type="VI" URL="../SubVIs/View/Graph Load Scale(Wave).vi"/>
+				<Item Name="Graph Load Scale(XY).vi" Type="VI" URL="../SubVIs/View/Graph Load Scale(XY).vi"/>
+				<Item Name="Graph Save Scale(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph Save Scale(Mixed).vi"/>
+				<Item Name="Graph Save Scale(Wave).vi" Type="VI" URL="../SubVIs/View/Graph Save Scale(Wave).vi"/>
+				<Item Name="Graph Save Scale(XY).vi" Type="VI" URL="../SubVIs/View/Graph Save Scale(XY).vi"/>
 				<Item Name="MixedGraphView.vi" Type="VI" URL="../SubVIs/View/MixedGraphView.vi"/>
 				<Item Name="WaveGraphView.vi" Type="VI" URL="../SubVIs/View/WaveGraphView.vi"/>
 				<Item Name="XYGraphView.vi" Type="VI" URL="../SubVIs/View/XYGraphView.vi"/>
 			</Item>
 		</Item>
-		<Item Name="TypeDef" Type="Folder"/>
-		<Item Name="ChkDateTime.vi" Type="VI" URL="../SubVIs/Subs/ChkDateTime.vi"/>
-		<Item Name="CustomizeSetting.vi" Type="VI" URL="../SubVIs/Subs/CustomizeSetting.vi"/>
-		<Item Name="FormClose.vi" Type="VI" URL="../SubVIs/Subs/FormClose.vi"/>
-		<Item Name="FormPopup.vi" Type="VI" URL="../SubVIs/Subs/FormPopup.vi"/>
-		<Item Name="GetCursorData.vi" Type="VI" URL="../SubVIs/Subs/GetCursorData.vi"/>
-		<Item Name="GetScaleCenter.vi" Type="VI" URL="../SubVIs/Subs/GetScaleCenter.vi"/>
-		<Item Name="GetYAxisList.vi" Type="VI" URL="../SubVIs/Subs/GetYAxisList.vi"/>
-		<Item Name="Graph GetYScale.vi" Type="VI" URL="../SubVIs/View/Graph GetYScale.vi"/>
-		<Item Name="Graph InitScale(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Mixed).vi"/>
-		<Item Name="Graph InitScale(Wave).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(Wave).vi"/>
-		<Item Name="Graph InitScale(XY).vi" Type="VI" URL="../SubVIs/View/Graph InitScale(XY).vi"/>
-		<Item Name="Load Axis.vi" Type="VI" URL="../SubVIs/Subs/Load Axis.vi"/>
-		<Item Name="Load Scale(Mixed).vi" Type="VI" URL="../SubVIs/Subs/Load Scale(Mixed).vi"/>
-		<Item Name="Load Scale(XY).vi" Type="VI" URL="../SubVIs/Subs/Load Scale(XY).vi"/>
-		<Item Name="Load Scale.vi" Type="VI" URL="../SubVIs/Subs/Load Scale.vi"/>
+		<Item Name="TypeDef" Type="Folder">
+			<Item Name="PlotParam.ctl" Type="VI" URL="../TypeDef/PlotParam.ctl"/>
+			<Item Name="ScaleParam.ctl" Type="VI" URL="../TypeDef/ScaleParam.ctl"/>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="MakeXyData.vi" Type="VI" URL="../SubVIs/Subs/MakeXyData.vi"/>
-		<Item Name="PlotParam.ctl" Type="VI" URL="../SubVIs/Subs/PlotParam.ctl"/>
-		<Item Name="Save Axis.vi" Type="VI" URL="../SubVIs/Subs/Save Axis.vi"/>
-		<Item Name="Save Scale(Mixed).vi" Type="VI" URL="../SubVIs/Subs/Save Scale(Mixed).vi"/>
-		<Item Name="Save Scale(XY).vi" Type="VI" URL="../SubVIs/Subs/Save Scale(XY).vi"/>
-		<Item Name="Save Scale.vi" Type="VI" URL="../SubVIs/Subs/Save Scale.vi"/>
-		<Item Name="ScaleParam.ctl" Type="VI" URL="../SubVIs/Subs/ScaleParam.ctl"/>
-		<Item Name="WaveGraph Cursor(Mixed).vi" Type="VI" URL="../SubVIs/View/WaveGraph Cursor(Mixed).vi"/>
-		<Item Name="WaveGraph Cursor(XY).vi" Type="VI" URL="../SubVIs/View/WaveGraph Cursor(XY).vi"/>
-		<Item Name="WaveGraph Cursor.vi" Type="VI" URL="../SubVIs/View/WaveGraph Cursor.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -316,7 +310,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{DE808F2C-05BF-4E4A-AAE4-D873BF15B0CF}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">Japanese</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WaveDisp V2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/WaveDisp V2/アプリケーション/WaveDisp V2.exe</Property>

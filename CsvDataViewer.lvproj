@@ -19,7 +19,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Debug" Type="Folder"/>
+		<Item Name="Debug" Type="Folder">
+			<Item Name="DEBUG Hoverボタン.vi" Type="VI" URL="../DEBUG Hoverボタン.vi"/>
+		</Item>
 		<Item Name="GlobalData" Type="Folder">
 			<Item Name="GlobalData.vi" Type="VI" URL="../GlobalData/GlobalData.vi"/>
 			<Item Name="GlobalXyData.vi" Type="VI" URL="../GlobalData/GlobalXyData.vi"/>
@@ -40,6 +42,9 @@
 				<Item Name="Formula(Scalar).vi" Type="VI" URL="../Lib/Formula/Formula(Scalar).vi"/>
 				<Item Name="Formula(Table).vi" Type="VI" URL="../Lib/Formula/Formula(Table).vi"/>
 				<Item Name="Formula.vi" Type="VI" URL="../Lib/Formula/Formula.vi"/>
+			</Item>
+			<Item Name="HoverButton" Type="Folder">
+				<Item Name="HoverButton MakeColot.vi" Type="VI" URL="../Lib/HoverButton/HoverButton MakeColot.vi"/>
 			</Item>
 			<Item Name="Table" Type="Folder">
 				<Item Name="CreateNumberingHeader.vi" Type="VI" URL="../Lib/Table/CreateNumberingHeader.vi"/>
@@ -101,6 +106,7 @@
 				<Item Name="Clear-68016.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/Clear-68016.vi"/>
 				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
@@ -170,8 +176,12 @@
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="setListBoxColumnWidths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/setListBoxColumnWidths.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -310,7 +320,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{DE808F2C-05BF-4E4A-AAE4-D873BF15B0CF}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">Japanese</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">WaveDisp V2.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/WaveDisp V2/アプリケーション/WaveDisp V2.exe</Property>

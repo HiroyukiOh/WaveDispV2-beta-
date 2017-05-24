@@ -72,6 +72,9 @@
 				<Item Name="MakeXyData.vi" Type="VI" URL="../SubVIs/Subs/MakeXyData.vi"/>
 			</Item>
 			<Item Name="View" Type="Folder">
+				<Item Name="GraphSetting" Type="Folder" URL="../SubVIs/View/GraphSetting">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 				<Item Name="Graph AddCursor(Mixed).vi" Type="VI" URL="../SubVIs/View/Graph AddCursor(Mixed).vi"/>
 				<Item Name="Graph AddCursor(Wave).vi" Type="VI" URL="../SubVIs/View/Graph AddCursor(Wave).vi"/>
 				<Item Name="Graph AddCursor(XY).vi" Type="VI" URL="../SubVIs/View/Graph AddCursor(XY).vi"/>
@@ -159,7 +162,9 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -199,6 +204,7 @@
 				<Item Name="UpdateBufferForMultiListBoxIfNecessary.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateBufferForMultiListBoxIfNecessary.vi"/>
 				<Item Name="UpdateListBoxAfterKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateListBoxAfterKeyEvent.vi"/>
 				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Waveform Min Max.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Min Max.vi"/>
@@ -212,6 +218,15 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="Create User Event.vi" Type="VI" URL="../Lib/Event/Create User Event.vi"/>
+			<Item Name="Destroy User Event.vi" Type="VI" URL="../Lib/Event/Destroy User Event.vi"/>
+			<Item Name="DialogProgramError.vi" Type="VI" URL="../Lib/DialogProgramError/DialogProgramError.vi"/>
+			<Item Name="Event Cluster.ctl" Type="VI" URL="../Lib/Event/Ctl/Event Cluster.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Write User Event (Array).vi" Type="VI" URL="../Lib/Event/Write User Event (Array).vi"/>
+			<Item Name="Write User Event (Normal).vi" Type="VI" URL="../Lib/Event/Write User Event (Normal).vi"/>
+			<Item Name="Write User Event with Error Support.vi" Type="VI" URL="../Lib/Event/Write User Event with Error Support.vi"/>
+			<Item Name="Write User Event.vi" Type="VI" URL="../Lib/Event/Write User Event.vi"/>
 		</Item>
 		<Item Name="ビルド仕様" Type="Build">
 			<Item Name="インストーラ(波形解析 V2)" Type="Installer">
